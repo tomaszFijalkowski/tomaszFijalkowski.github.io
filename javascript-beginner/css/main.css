@@ -16,18 +16,18 @@ body{
 .wrapper{
     margin-left: auto;
     margin-right: auto;
-    width: 1200px;
+    width: 1000px;
 }
 
 .content{
-    margin: 35px auto 70px auto;
+    margin: 0 auto 60px auto;
     width: 50%;
 }
 
 .result{
-    margin: 35px auto;
+    margin: 30px auto;
     width: 100%;
-    padding-top: 70px;
+    padding-top: 50px;
     border-top: solid 1px #404b69;
 }
 
@@ -35,33 +35,27 @@ body{
     font-weight: 800;
     color: #f73859;
     text-align: center;
-    font-family: 'Source Sans Pro', sans-serif;
 }
 
 #area{
     font-weight: 800;
-    line-height: 50px;
+    line-height: 40px;
     text-align: center;
-    font-family: 'Source Sans Pro', sans-serif;
 }
 
 #circumference{
     font-weight: 800;
-    line-height: 50px;
+    line-height: 40px;
     text-align: center;
-    font-family: 'Source Sans Pro', sans-serif;
 }
 
 .number{
     color: #f73859;
-    /* text-align: right;
-    float: right; */
-    font-family: 'Source Sans Pro', sans-serif;
 }
 
 .input-label{
     font-weight: 800;
-    font-size: 18px;
+    font-size: 16px;
     line-height: 50px;
     float: right;
 }
@@ -70,18 +64,18 @@ header{
     font-family: 'Oxygen', sans-serif;
     font-weight: 800;
     text-align: center;
-    font-size: 34px;
-    margin: 70px auto 35px auto;
-    padding-bottom: 70px;
+    font-size: 30px;
+    margin: 60px auto 30px auto;
+    padding-bottom: 60px;
     border-bottom: solid 1px #404b69;
-    width: 1150px;
+    width: 950px;
 }
 
 section{
-    margin: 35px auto 70px auto;
-    padding-top: 35px;
+    margin: 30px auto 60px auto;
+    padding-top: 30px;
     border-top: solid 1px #404b69;
-    width: 1150px;
+    width: 950px;
 }
 
 nav {
@@ -92,7 +86,7 @@ nav a {
     font-family: 'Oxygen', sans-serif;
 	position: relative;
 	display: inline-block;
-	margin: 15px 25px;
+	margin: 5px 13px;
 	outline: none;
 	color: #f73859;
 	text-decoration: none;
@@ -100,7 +94,7 @@ nav a {
 	letter-spacing: 2px;
 	font-weight: 400;
 	text-shadow: 0 0 1px rgba(255,255,255,0.3);
-    font-size: 1.35em;
+    font-size: 18px;
 }
 
 input[type="text"],
@@ -130,7 +124,7 @@ select
     padding: 3%;
     color: #555;
     font: 95% Arial, Helvetica, sans-serif;
-    font-size: 18px;
+    font-size: 16px;
 }
 
 input[type="text"]:focus,
@@ -162,8 +156,8 @@ input[type="button"]{
     border-right-style: none;
     border-left-style: none;    
     color: #fff;
-    margin-top: 35px;
-    font-size: 18px;
+    margin-top: 30px;
+    font-size: 16px;
 }
 
 input[type="submit"]:hover,

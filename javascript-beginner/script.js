@@ -17,10 +17,10 @@ async function popUp(id){
     document.getElementById(id).style.fontSize = '0';
     document.getElementById(id).style.transition = '0.05s';
     await sleep(50);
-    document.getElementById(id).style.fontSize = '30px';
+    document.getElementById(id).style.fontSize = '28px';
     document.getElementById(id).style.transition = '0.15s';
     await sleep(150);
-    document.getElementById(id).style.fontSize = '24px';
+    document.getElementById(id).style.fontSize = '22px';
 }
 
 
