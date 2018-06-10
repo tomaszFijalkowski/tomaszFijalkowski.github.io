@@ -14,18 +14,34 @@ async function checkInput(value, id){
 
 
 async function popUp(id){
-    document.getElementById(id).style.fontSize = '0';
-    document.getElementById(id).style.transition = '0.05s';
+    var result = document.getElementById('result');
+    var item = document.getElementById(id);
+    result.style.opacity = '1';
+    item.style.opacity = '1';
+    item.style.fontSize = '0';
+    item.style.transition = '0.05s';
     await sleep(50);
-    document.getElementById(id).style.fontSize = '26px';
-    document.getElementById(id).style.transition = '0.15s';
+    item.style.fontSize = '26px';
+    item.style.transition = '0.15s';
     await sleep(150);
-    document.getElementById(id).style.fontSize = '20px';
+    item.style.fontSize = '20px';
+}
+
+
+async function fadeOutResult(){
+    var result = document.getElementById('result');
+    result.style.opacity = '0';
+    result.style.paddingTop = '100px';
+    await sleep(500);
+    result.style.paddingTop = '0';
 }
 
 
 function getContent(shape){
     var content = document.getElementById('content');
+
+    fadeOutResult()
+
     switch (shape){
         case "circle":
             content.innerHTML =
@@ -166,8 +182,8 @@ function getResult(shape){
     if (circumference > 0){
         result.innerHTML =
         `
-        <div id="area">Area of ${shape} is equal to: <span class="number">${area}</span><div>
         <div id="circumference">Circumference of ${shape} is equal to: <span class="number">${circumference}</span><div>
+        <div id="area">Area of ${shape} is equal to: <span class="number">${area}</span><div>
         `;
         popUp("area");
         popUp("circumference");
@@ -187,6 +203,7 @@ function getResult(shape){
     
 }
 
+
 function trackNav(){
     var hash = (window.location.hash).replace('#', '');
     if (hash.length == 0) {
@@ -197,6 +214,7 @@ function trackNav(){
         getContent(hash)
     }
 }
+
 
 function clamp(value){
     if (value < 0){

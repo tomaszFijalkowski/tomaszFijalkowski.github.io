@@ -22,21 +22,21 @@ body{
 .content{
     margin: 25px auto 50px auto;
     width: 50%;
+    letter-spacing: 1px;
 }
 
 .result{
+    transition: 0.5s;
+    font-family: 'Oxygen', sans-serif;
     margin: 25px auto;
     width: 100%;
-    padding-top: 40px;
-    border-top: solid 1px #404b69;
+    letter-spacing: 1px;
 }
 
-#info{
-    font-weight: 800;
-    line-height: 40px;
-    color: #404b6966;
-    text-align: center;
-    font-size:20px;
+#hide{
+    opacity:0;
+    transition: opacity 2s;
+    -webkit-transition: opacity 2s;
 }
 
 #error{
@@ -78,6 +78,7 @@ header{
     padding-bottom: 50px;
     border-bottom: solid 1px #404b69;
     width: 850px;
+    letter-spacing: 1px;
 }
 
 section{
