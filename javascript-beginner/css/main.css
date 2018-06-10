@@ -16,24 +16,33 @@ body{
 .wrapper{
     margin-left: auto;
     margin-right: auto;
-    width: 1000px;
+    width: 900px;
 }
 
 .content{
-    margin: 0 auto 60px auto;
+    margin: 25px auto 50px auto;
     width: 50%;
 }
 
 .result{
-    margin: 30px auto;
+    margin: 25px auto;
     width: 100%;
-    padding-top: 50px;
+    padding-top: 40px;
     border-top: solid 1px #404b69;
+}
+
+#info{
+    font-weight: 800;
+    line-height: 40px;
+    color: #404b6966;
+    text-align: center;
+    font-size:20px;
 }
 
 #error{
     font-weight: 800;
     color: #f73859;
+    line-height: 40px;
     text-align: center;
 }
 
@@ -55,8 +64,8 @@ body{
 
 .input-label{
     font-weight: 800;
-    font-size: 16px;
-    line-height: 50px;
+    font-size: 14px;
+    line-height: 25px;
     float: right;
 }
 
@@ -64,18 +73,18 @@ header{
     font-family: 'Oxygen', sans-serif;
     font-weight: 800;
     text-align: center;
-    font-size: 30px;
-    margin: 60px auto 30px auto;
-    padding-bottom: 60px;
+    font-size: 28px;
+    margin: 50px auto 25px auto;
+    padding-bottom: 50px;
     border-bottom: solid 1px #404b69;
-    width: 950px;
+    width: 850px;
 }
 
 section{
-    margin: 30px auto 60px auto;
-    padding-top: 30px;
+    margin: 25px auto 50px auto;
+    padding-top: 25px;
     border-top: solid 1px #404b69;
-    width: 950px;
+    width: 850px;
 }
 
 nav {
@@ -86,7 +95,7 @@ nav a {
     font-family: 'Oxygen', sans-serif;
 	position: relative;
 	display: inline-block;
-	margin: 5px 13px;
+	margin: 5px 10px;
 	outline: none;
 	color: #f73859;
 	text-decoration: none;
@@ -94,7 +103,7 @@ nav a {
 	letter-spacing: 2px;
 	font-weight: 400;
 	text-shadow: 0 0 1px rgba(255,255,255,0.3);
-    font-size: 18px;
+    font-size: 16px;
 }
 
 input[type="text"],
@@ -124,7 +133,7 @@ select
     padding: 3%;
     color: #555;
     font: 95% Arial, Helvetica, sans-serif;
-    font-size: 16px;
+    font-size: 14px;
 }
 
 input[type="text"]:focus,
@@ -156,7 +165,7 @@ input[type="button"]{
     border-right-style: none;
     border-left-style: none;    
     color: #fff;
-    margin-top: 30px;
+    margin-top: 25px;
     font-size: 16px;
 }
 
