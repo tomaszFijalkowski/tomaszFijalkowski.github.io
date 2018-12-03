@@ -1,0 +1,13 @@
+{
+"companyName": "DefaultCompany",
+"productName": "Trampling On Corpses",
+"dataUrl": "Trampling On Corpses.data.unityweb",
+"wasmCodeUrl": "Trampling On Corpses.wasm.code.unityweb",
+"wasmFrameworkUrl": "Trampling On Corpses.wasm.framework.unityweb",
+"TOTAL_MEMORY": 268435456,
+"graphicsAPI": ["WebGL 2.0", "WebGL 1.0"],
+"webglContextAttributes": {"preserveDrawingBuffer": false},
+"splashScreenStyle": "Dark",
+"backgroundColor": "#212121",
+"cacheControl": {"default": "must-revalidate"}
+}
